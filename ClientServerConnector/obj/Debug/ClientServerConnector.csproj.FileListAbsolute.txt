@@ -1,0 +1,6 @@
+D:\SERFIEX\gRPC\ClientServerConnector\bin\Debug\ClientServerConnector.dll
+D:\SERFIEX\gRPC\ClientServerConnector\bin\Debug\ClientServerConnector.pdb
+D:\SERFIEX\gRPC\ClientServerConnector\obj\Debug\ClientServerConnector.csproj.AssemblyReference.cache
+D:\SERFIEX\gRPC\ClientServerConnector\obj\Debug\ClientServerConnector.csproj.CoreCompileInputs.cache
+D:\SERFIEX\gRPC\ClientServerConnector\obj\Debug\ClientServerConnector.dll
+D:\SERFIEX\gRPC\ClientServerConnector\obj\Debug\ClientServerConnector.pdb
