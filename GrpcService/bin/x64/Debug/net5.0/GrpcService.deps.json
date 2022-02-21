@@ -33,7 +33,9 @@
     ".NETCoreApp,Version=v5.0": {
       "GrpcService/1.0.0": {
         "dependencies": {
-          "Grpc.AspNetCore": "2.34.0",
+          "ClientServerConnector": "1.0.0",
+          "Grpc.AspNetCore": "2.42.0",
+          "Grpc.Tools": "2.44.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -184,7 +186,7 @@
           "System.Data": "4.0.0.0",
           "System.Diagnostics.Contracts": "5.0.0.0",
           "System.Diagnostics.Debug": "5.0.0.0",
-          "System.Diagnostics.DiagnosticSource.Reference": "5.0.0.0",
+          "System.Diagnostics.DiagnosticSource": "5.0.0.0",
           "System.Diagnostics.EventLog": "5.0.0.0",
           "System.Diagnostics.FileVersionInfo": "5.0.0.0",
           "System.Diagnostics.Process": "5.0.0.0",
@@ -253,7 +255,7 @@
           "System.Resources.Reader": "5.0.0.0",
           "System.Resources.ResourceManager": "5.0.0.0",
           "System.Resources.Writer": "5.0.0.0",
-          "System.Runtime.CompilerServices.Unsafe.Reference": "5.0.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0.0",
           "System.Runtime.CompilerServices.VisualC": "5.0.0.0",
           "System.Runtime": "5.0.0.0",
           "System.Runtime.Extensions": "5.0.0.0",
@@ -325,117 +327,112 @@
           "GrpcService.dll": {}
         }
       },
-      "Google.Protobuf/3.14.0": {
-        "dependencies": {
-          "System.Memory": "4.5.3",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
-        },
+      "Google.Protobuf/3.18.1": {
         "runtime": {
-          "lib/netstandard2.0/Google.Protobuf.dll": {
-            "assemblyVersion": "3.14.0.0",
-            "fileVersion": "3.14.0.0"
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.18.1.0",
+            "fileVersion": "3.18.1.0"
           }
         },
         "compile": {
-          "lib/netstandard2.0/Google.Protobuf.dll": {}
+          "lib/net5.0/Google.Protobuf.dll": {}
         }
       },
-      "Grpc.AspNetCore/2.34.0": {
+      "Grpc.AspNetCore/2.42.0": {
         "dependencies": {
-          "Google.Protobuf": "3.14.0",
-          "Grpc.AspNetCore.Server.ClientFactory": "2.34.0",
-          "Grpc.Tools": "2.34.0"
+          "Google.Protobuf": "3.18.1",
+          "Grpc.AspNetCore.Server.ClientFactory": "2.42.0",
+          "Grpc.Tools": "2.44.0"
         }
       },
-      "Grpc.AspNetCore.Server/2.34.0": {
+      "Grpc.AspNetCore.Server/2.42.0": {
         "dependencies": {
-          "Grpc.Net.Common": "2.34.0"
+          "Grpc.Net.Common": "2.42.0"
         },
         "runtime": {
           "lib/net5.0/Grpc.AspNetCore.Server.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.34.0.0"
+            "fileVersion": "2.42.0.0"
           }
         },
         "compile": {
           "lib/net5.0/Grpc.AspNetCore.Server.dll": {}
         }
       },
-      "Grpc.AspNetCore.Server.ClientFactory/2.34.0": {
+      "Grpc.AspNetCore.Server.ClientFactory/2.42.0": {
         "dependencies": {
-          "Grpc.AspNetCore.Server": "2.34.0",
-          "Grpc.Net.ClientFactory": "2.34.0"
+          "Grpc.AspNetCore.Server": "2.42.0",
+          "Grpc.Net.ClientFactory": "2.42.0"
         },
         "runtime": {
           "lib/net5.0/Grpc.AspNetCore.Server.ClientFactory.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.34.0.0"
+            "fileVersion": "2.42.0.0"
           }
         },
         "compile": {
           "lib/net5.0/Grpc.AspNetCore.Server.ClientFactory.dll": {}
         }
       },
-      "Grpc.Core.Api/2.34.0": {
+      "Grpc.Core.Api/2.42.0": {
         "dependencies": {
           "System.Memory": "4.5.3"
         },
         "runtime": {
           "lib/netstandard2.0/Grpc.Core.Api.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.34.0.0"
+            "fileVersion": "2.42.0.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/Grpc.Core.Api.dll": {}
         }
       },
-      "Grpc.Net.Client/2.34.0": {
+      "Grpc.Net.Client/2.42.0": {
         "dependencies": {
-          "Grpc.Net.Common": "2.34.0",
-          "Microsoft.Extensions.Logging.Abstractions": "3.0.3",
-          "System.Diagnostics.DiagnosticSource": "4.5.1"
+          "Grpc.Net.Common": "2.42.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.0.3"
         },
         "runtime": {
           "lib/net5.0/Grpc.Net.Client.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.34.0.0"
+            "fileVersion": "2.42.0.0"
           }
         },
         "compile": {
           "lib/net5.0/Grpc.Net.Client.dll": {}
         }
       },
-      "Grpc.Net.ClientFactory/2.34.0": {
+      "Grpc.Net.ClientFactory/2.42.0": {
         "dependencies": {
-          "Grpc.Net.Client": "2.34.0",
+          "Grpc.Net.Client": "2.42.0",
           "Microsoft.Extensions.Http": "3.0.3"
         },
         "runtime": {
           "lib/net5.0/Grpc.Net.ClientFactory.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.34.0.0"
+            "fileVersion": "2.42.0.0"
           }
         },
         "compile": {
           "lib/net5.0/Grpc.Net.ClientFactory.dll": {}
         }
       },
-      "Grpc.Net.Common/2.34.0": {
+      "Grpc.Net.Common/2.42.0": {
         "dependencies": {
-          "Grpc.Core.Api": "2.34.0"
+          "Grpc.Core.Api": "2.42.0"
         },
         "runtime": {
           "lib/net5.0/Grpc.Net.Common.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.34.0.0"
+            "fileVersion": "2.42.0.0"
           }
         },
         "compile": {
           "lib/net5.0/Grpc.Net.Common.dll": {}
         }
       },
-      "Grpc.Tools/2.34.0": {},
+      "Grpc.Tools/2.44.0": {},
       "Microsoft.Extensions.Configuration/3.0.3": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "3.0.3"
@@ -480,9 +477,15 @@
         }
       },
       "Microsoft.Extensions.Primitives/3.0.3": {},
-      "System.Diagnostics.DiagnosticSource/4.5.1": {},
       "System.Memory/4.5.3": {},
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {},
+      "ClientServerConnector/1.0.0": {
+        "runtime": {
+          "ClientServerConnector.dll": {}
+        },
+        "compile": {
+          "ClientServerConnector.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -1383,7 +1386,7 @@
         },
         "compileOnly": true
       },
-      "System.Diagnostics.DiagnosticSource.Reference/5.0.0.0": {
+      "System.Diagnostics.DiagnosticSource/5.0.0.0": {
         "compile": {
           "System.Diagnostics.DiagnosticSource.dll": {}
         },
@@ -1797,7 +1800,7 @@
         },
         "compileOnly": true
       },
-      "System.Runtime.CompilerServices.Unsafe.Reference/5.0.0.0": {
+      "System.Runtime.CompilerServices.Unsafe/5.0.0.0": {
         "compile": {
           "System.Runtime.CompilerServices.Unsafe.dll": {}
         },
@@ -2189,68 +2192,68 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Google.Protobuf/3.14.0": {
+    "Google.Protobuf/3.18.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9AkodyGNmLI+wJJPbwpWLmh4BMHoXDQ9+8qvDPhQQi/BNsleqKMBn3OlyLwC6CALwan2kc5+Cenb8fJSITX3nQ==",
-      "path": "google.protobuf/3.14.0",
-      "hashPath": "google.protobuf.3.14.0.nupkg.sha512"
+      "sha512": "sha512-7lP9/TAFa27uJC5Udbybnb8twoXDIjA5gGjmsrwJqyNIRoJ3VKKrJhQwrsQAIzwT54l7DwlpWm5vGDH5hW/Dig==",
+      "path": "google.protobuf/3.18.1",
+      "hashPath": "google.protobuf.3.18.1.nupkg.sha512"
     },
-    "Grpc.AspNetCore/2.34.0": {
+    "Grpc.AspNetCore/2.42.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0KED45KfO2/pFgEpoEwmnYL4IrN+tHmYVav11A9iVHaM8d73ic2pchkUJjM9W4AYAGpXHlkfMYzkqwPWpP363w==",
-      "path": "grpc.aspnetcore/2.34.0",
-      "hashPath": "grpc.aspnetcore.2.34.0.nupkg.sha512"
+      "sha512": "sha512-h+axjft08i+SXCTcsUj6+N3ukvbLemJAWmkG7TJPXrctuPbB0vqx3SfCmNw2o2QlDqSI3JJrPAgoZSa1WHUzKA==",
+      "path": "grpc.aspnetcore/2.42.0",
+      "hashPath": "grpc.aspnetcore.2.42.0.nupkg.sha512"
     },
-    "Grpc.AspNetCore.Server/2.34.0": {
+    "Grpc.AspNetCore.Server/2.42.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-V937xHNfIQM6X2dx8ManMK+xfkjmxwVfL/kWa+kZiLnf4E0VYd/A2ocrKDnn7EQk7SV2tkCD1+fUsG3qRsKNmQ==",
-      "path": "grpc.aspnetcore.server/2.34.0",
-      "hashPath": "grpc.aspnetcore.server.2.34.0.nupkg.sha512"
+      "sha512": "sha512-/C0kQoKDIuEq8CdN4rmz42MO9ToKC+EWs22LywK3+T+nFdgPyTltenPrHj9RFzaiMp9N63TBO7Nd6IQqpLcAzQ==",
+      "path": "grpc.aspnetcore.server/2.42.0",
+      "hashPath": "grpc.aspnetcore.server.2.42.0.nupkg.sha512"
     },
-    "Grpc.AspNetCore.Server.ClientFactory/2.34.0": {
+    "Grpc.AspNetCore.Server.ClientFactory/2.42.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4NsZNtnKXt+u2KSczhU7eI+QX/XEDPnMxUtqpeMPNuI38ZEwB9HEG5W2KZQzT6vVLa8VR2GBuY0DDwWyP5hWlg==",
-      "path": "grpc.aspnetcore.server.clientfactory/2.34.0",
-      "hashPath": "grpc.aspnetcore.server.clientfactory.2.34.0.nupkg.sha512"
+      "sha512": "sha512-kqYqDTGbT/lvjaDg6kpAMUOapd6Z3P5pDmiswLAv6DJnOw8ph72HACgMKAh8qcXWMNikiQnnAlwsZffjmRPk5w==",
+      "path": "grpc.aspnetcore.server.clientfactory/2.42.0",
+      "hashPath": "grpc.aspnetcore.server.clientfactory.2.42.0.nupkg.sha512"
     },
-    "Grpc.Core.Api/2.34.0": {
+    "Grpc.Core.Api/2.42.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TfxhML3GDy9Lo7Qk5Nax1ySGXNwxZQ3znVeV2n5SRHZC6EVoRSRy0foPAKrSgmyvrGlCdfsH4E2EmaLvCkNI2w==",
-      "path": "grpc.core.api/2.34.0",
-      "hashPath": "grpc.core.api.2.34.0.nupkg.sha512"
+      "sha512": "sha512-12ciAZrp8orzYFZcruvzshhMEbbD4CAFOe9an1Fa4/c5ZrCtqUjWVPa1Dpk/1Pnv5E1KTeIHPuOtPTkpMLOCoQ==",
+      "path": "grpc.core.api/2.42.0",
+      "hashPath": "grpc.core.api.2.42.0.nupkg.sha512"
     },
-    "Grpc.Net.Client/2.34.0": {
+    "Grpc.Net.Client/2.42.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UJkhLPa80jR0G6VsZmmSbKQBsvmxKPY+N2UvN/cEWZXezboRoSyk8h4Yb3t/BEHsRkjNhMqw4UPpr2INUK1HlA==",
-      "path": "grpc.net.client/2.34.0",
-      "hashPath": "grpc.net.client.2.34.0.nupkg.sha512"
+      "sha512": "sha512-UrVBlzAiYh04bwOjBMUlh0THwieOhoVdmhpvY1LXCdlgRUAYicoDn9SHUZEnLP/xq3lsbhhkTEOeZcFpyOLE+w==",
+      "path": "grpc.net.client/2.42.0",
+      "hashPath": "grpc.net.client.2.42.0.nupkg.sha512"
     },
-    "Grpc.Net.ClientFactory/2.34.0": {
+    "Grpc.Net.ClientFactory/2.42.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RYMFSfucrjkrlikt0cDwh7qsxvxTIuVLHKrooqy7xoXkc0fqsXNzBHCYUqbvxiqUe0vl0mugsUGb9yZDEWQNIg==",
-      "path": "grpc.net.clientfactory/2.34.0",
-      "hashPath": "grpc.net.clientfactory.2.34.0.nupkg.sha512"
+      "sha512": "sha512-I4iQBjuyfjoEe3NQVaQ3RslqIP9pQ2mKfo8GVkiKrYYc9v99waHH8Sezxd4SO7+gpM4G34UVXkWkBlQw5zoK/A==",
+      "path": "grpc.net.clientfactory/2.42.0",
+      "hashPath": "grpc.net.clientfactory.2.42.0.nupkg.sha512"
     },
-    "Grpc.Net.Common/2.34.0": {
+    "Grpc.Net.Common/2.42.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dxVKzogjSejTV0hGeL61fmw6BSzF5uW4PBDWnx8LJFn41drgIPIXOoCJVqSAZ39lkGjTZlxtcwV5Vy6zqTf5Gw==",
-      "path": "grpc.net.common/2.34.0",
-      "hashPath": "grpc.net.common.2.34.0.nupkg.sha512"
+      "sha512": "sha512-+nYAAvpc3yg/HS+uleYoNUBR0sf0EVpY5FAos5v8PILnTbGU552QfxAaToY/wCMYExkde/zIJM/l+JvHMezYSg==",
+      "path": "grpc.net.common/2.42.0",
+      "hashPath": "grpc.net.common.2.42.0.nupkg.sha512"
     },
-    "Grpc.Tools/2.34.0": {
+    "Grpc.Tools/2.44.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-klDiY8Xv/VYxK4sLzqGRm3NOXf0IpCsM456g4175qWl/omg8h117Eqiq3ZtywtBAhyDLiLiJAhy9rb/tq9yvXQ==",
-      "path": "grpc.tools/2.34.0",
-      "hashPath": "grpc.tools.2.34.0.nupkg.sha512"
+      "sha512": "sha512-HEqnCJqHcpr1rgrfluvPAsaR4Y1qSFicg8Z24u6kmw0EIk9RnRszz2OVjAkyvqcGU18fWAtsmk8NApfzbVHucw==",
+      "path": "grpc.tools/2.44.0",
+      "hashPath": "grpc.tools.2.44.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/3.0.3": {
       "type": "package",
@@ -2322,13 +2325,6 @@
       "path": "microsoft.extensions.primitives/3.0.3",
       "hashPath": "microsoft.extensions.primitives.3.0.3.nupkg.sha512"
     },
-    "System.Diagnostics.DiagnosticSource/4.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-zCno/m44ymWhgLFh7tELDG9587q0l/EynPM0m4KgLaWQbz/TEKvNRX2YT5ip2qXW/uayifQ2ZqbnErsKJ4lYrQ==",
-      "path": "system.diagnostics.diagnosticsource/4.5.1",
-      "hashPath": "system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512"
-    },
     "System.Memory/4.5.3": {
       "type": "package",
       "serviceable": true,
@@ -2336,12 +2332,10 @@
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
-      "path": "system.runtime.compilerservices.unsafe/4.5.2",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    "ClientServerConnector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",
@@ -3093,7 +3087,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Diagnostics.DiagnosticSource.Reference/5.0.0.0": {
+    "System.Diagnostics.DiagnosticSource/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3438,7 +3432,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Runtime.CompilerServices.Unsafe.Reference/5.0.0.0": {
+    "System.Runtime.CompilerServices.Unsafe/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

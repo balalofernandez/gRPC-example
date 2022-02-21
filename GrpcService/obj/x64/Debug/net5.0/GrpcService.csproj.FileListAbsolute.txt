@@ -23,8 +23,10 @@ D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\net5.0\staticwebassets\GrpcService.Sta
 D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\net5.0\staticwebassets\GrpcService.StaticWebAssets.xml
 D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\net5.0\scopedcss\bundle\GrpcService.styles.css
 D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\net5.0\GrpcService.RazorTargetAssemblyInfo.cache
-D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\net5.0\GrpcService.csproj.CopyComplete
 D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\net5.0\GrpcService.dll
 D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\net5.0\ref\GrpcService.dll
 D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\net5.0\GrpcService.pdb
 D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\net5.0\GrpcService.genruntimeconfig.cache
+D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\net5.0\GrpcService.csproj.AssemblyReference.cache
+D:\SERFIEX\gRPC\GrpcService\bin\x64\Debug\net5.0\ClientServerConnector.dll
+D:\SERFIEX\gRPC\GrpcService\bin\x64\Debug\net5.0\ClientServerConnector.pdb
