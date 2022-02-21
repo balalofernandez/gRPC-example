@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = ClientServerConnector
+build_property.ProjectDir = D:\SERFIEX\gRPC\ClientServerConnector\

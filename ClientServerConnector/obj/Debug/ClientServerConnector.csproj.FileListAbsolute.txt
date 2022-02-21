@@ -1,1 +1,0 @@
-D:\SERFIEX\gRPC\ClientServerConnector\obj\Debug\ClientServerConnector.csproj.CoreCompileInputs.cache

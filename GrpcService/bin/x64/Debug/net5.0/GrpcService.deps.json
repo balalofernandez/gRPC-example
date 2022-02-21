@@ -33,7 +33,6 @@
     ".NETCoreApp,Version=v5.0": {
       "GrpcService/1.0.0": {
         "dependencies": {
-          "ClientServerConnector": "1.0.0",
           "Grpc.AspNetCore": "2.42.0",
           "Grpc.Tools": "2.44.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -478,14 +477,6 @@
       },
       "Microsoft.Extensions.Primitives/3.0.3": {},
       "System.Memory/4.5.3": {},
-      "ClientServerConnector/1.0.0": {
-        "runtime": {
-          "ClientServerConnector.dll": {}
-        },
-        "compile": {
-          "ClientServerConnector.dll": {}
-        }
-      },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2331,11 +2322,6 @@
       "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
-    },
-    "ClientServerConnector/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",

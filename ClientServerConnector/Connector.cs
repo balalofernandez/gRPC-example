@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClientServerConnector
 {
@@ -10,12 +6,25 @@ namespace ClientServerConnector
     {
         public Connector()
         {
+
         }
 
-        public static string Test()
+        public static void Test()
         {
-            return "Hola mundo";
+            GrpcChannel channel = GrpcChannel.ForAddress("https://localhost:5001", new GrpcChannelOptions
+            {
+                HttpHandler = new WinHttpHandler()
+            });
+
+            var client = new Greeter.GreeterClient(channel);
+            String user = ".NET";
+
+            var reply = client.SayHello(new HelloRequest { Name = user });
+            Console.WriteLine("Greeting: " + reply.Message);
+
+            channel.ShutdownAsync().Wait();
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
     }
-
 }

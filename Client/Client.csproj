@@ -101,11 +101,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ClientServerConnector\ClientServerConnector.csproj">
-      <Project>{7455599f-7cc4-4f53-b3bd-166779efbec8}</Project>
-      <Name>ClientServerConnector</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

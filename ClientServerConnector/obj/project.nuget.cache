@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "gbVBQMAaCAJx8JcbEd1ikKXmi7ZX+WS/pUmUPnLgW9IQ4ixMbEzv6LFEvREFGcCDC62R5va5W1rOGOB8vAlBdA==",
+  "success": false,
+  "projectFilePath": "D:\\SERFIEX\\gRPC\\ClientServerConnector\\ClientServerConnector.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project GrpcService is not compatible with netstandard2.1 (.NETStandard,Version=v2.1). Project GrpcService supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "GrpcService",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}
