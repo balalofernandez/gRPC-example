@@ -1,0 +1,10 @@
+D:\SERFIEX\gRPC\GrpcService.Protos\bin\Debug\netstandard2.0\GrpcService.Protos.deps.json
+D:\SERFIEX\gRPC\GrpcService.Protos\bin\Debug\netstandard2.0\GrpcService.Protos.dll
+D:\SERFIEX\gRPC\GrpcService.Protos\bin\Debug\netstandard2.0\GrpcService.Protos.pdb
+D:\SERFIEX\gRPC\GrpcService.Protos\obj\Debug\netstandard2.0\GrpcService.Protos.GeneratedMSBuildEditorConfig.editorconfig
+D:\SERFIEX\gRPC\GrpcService.Protos\obj\Debug\netstandard2.0\GrpcService.Protos.AssemblyInfoInputs.cache
+D:\SERFIEX\gRPC\GrpcService.Protos\obj\Debug\netstandard2.0\GrpcService.Protos.AssemblyInfo.cs
+D:\SERFIEX\gRPC\GrpcService.Protos\obj\Debug\netstandard2.0\GrpcService.Protos.csproj.CoreCompileInputs.cache
+D:\SERFIEX\gRPC\GrpcService.Protos\obj\Debug\netstandard2.0\GrpcService.Protos.dll
+D:\SERFIEX\gRPC\GrpcService.Protos\obj\Debug\netstandard2.0\GrpcService.Protos.pdb
+D:\SERFIEX\gRPC\GrpcService.Protos\obj\Debug\netstandard2.0\GrpcService.Protos.csproj.AssemblyReference.cache

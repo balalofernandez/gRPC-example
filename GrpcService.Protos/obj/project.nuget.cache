@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "b4pvekEG7Tgvh598XnQOnngJLDqELHTDZXNxH7f3X1QQkIXoCwF8xK82YV04fGpFn0pzu7dW2CwwpADUGU/Pgw==",
+  "success": true,
+  "projectFilePath": "D:\\SERFIEX\\gRPC\\GrpcService.Protos\\GrpcService.Protos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\balal\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
+    "C:\\Users\\balal\\.nuget\\packages\\grpc\\2.44.0\\grpc.2.44.0.nupkg.sha512",
+    "C:\\Users\\balal\\.nuget\\packages\\grpc.core\\2.44.0\\grpc.core.2.44.0.nupkg.sha512",
+    "C:\\Users\\balal\\.nuget\\packages\\grpc.core.api\\2.44.0\\grpc.core.api.2.44.0.nupkg.sha512",
+    "C:\\Users\\balal\\.nuget\\packages\\grpc.tools\\2.44.0\\grpc.tools.2.44.0.nupkg.sha512",
+    "C:\\Users\\balal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\balal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\balal\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\balal\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\balal\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\balal\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
