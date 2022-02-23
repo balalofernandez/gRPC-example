@@ -1,5 +1,0 @@
-D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\netstandard2.0\GrpcService.csproj.AssemblyReference.cache
-D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\netstandard2.0\GrpcService.GeneratedMSBuildEditorConfig.editorconfig
-D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\netstandard2.0\GrpcService.AssemblyInfoInputs.cache
-D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\netstandard2.0\GrpcService.AssemblyInfo.cs
-D:\SERFIEX\gRPC\GrpcService\obj\x64\Debug\netstandard2.0\GrpcService.csproj.CoreCompileInputs.cache
