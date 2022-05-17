@@ -107,6 +107,7 @@ Finalmente iniciaremos el servidor:
 ## Crear el Cliente
 
 Usando la clase cliente que se genera a partir de archivo `.proto` se tiene lo siguiente:
+
 	```
 	Channel channel = new Channel("127.0.0.1:50052", ChannelCredentials.Insecure);
 	var client = new RouteGuide.RouteGuideClient(channel);
