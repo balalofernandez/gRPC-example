@@ -10,3 +10,18 @@
 - Ejemplo ( [Seguridad en aplicaciones gRPC](https://docs.microsoft.com/es-es/dotnet/architecture/grpc-for-wcf-developers/encryption) ): https://github.com/dotnet-architecture/grpc-for-wcf-developers/tree/main/FullStockTickerSample/grpc/FullStockTickerAuth/FullStockTicker
 
 En cuanto al uso de certificados válidos, comentan que no es seguro usar certificados firmados por el propio servidor (Self-signed). En la [documentación](https://docs.microsoft.com/es-es/dotnet/architecture/grpc-for-wcf-developers/encryption) se comenta que se puede usar [Let's Encrypt](https://letsencrypt.org) como solución gratuita.
+
+
+## Algo de información sobre [Kestrel](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/endpoints?view=aspnetcore-6.0):
+Ahora mismo estamos usando el default certificate (el certificado de desarrollo). Los endpoints los podemos configurar mediante un archivo de configuración `appsettings.json` o desde el propio código del program:
+```
+var builder = WebApplication.CreateBuilder(args);
+
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.ConfigureEndpointDefaults(listenOptions =>
+    {
+        // ...
+    });
+});
+```
