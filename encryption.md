@@ -11,6 +11,11 @@
 
 En cuanto al uso de certificados válidos, comentan que no es seguro usar certificados firmados por el propio servidor (Self-signed). En la [documentación](https://docs.microsoft.com/es-es/dotnet/architecture/grpc-for-wcf-developers/encryption) se comenta que se puede usar [Let's Encrypt](https://letsencrypt.org) como solución gratuita.
 
+Para que ambos certificados se validen se necesitan: 
+1. Hostname must match the subject Common Name in the certificate presented.
+2. the certificate must not be revoked, by using CRL or OCSP to validate
+3. the root CA certificate must be trusted, and no intermediaries can be revoked
+
 
 ## Algo de información sobre [Kestrel](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/endpoints?view=aspnetcore-6.0):
 Ahora mismo estamos usando el default certificate (el certificado de desarrollo). Los endpoints los podemos configurar mediante un archivo de configuración `appsettings.json` o desde el propio código del program:
