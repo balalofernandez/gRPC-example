@@ -1,6 +1,6 @@
 ﻿# gRPC Service
 
-- [Encriptado]([https://github.com/balalofernandez/gRPC-example/encryption.md](https://github.com/balalofernandez/gRPC-example/blob/e23abf35526e1b518e1164d8cdaf66be5e247cfa/encryption.md))
+- [Encriptado](https://github.com/balalofernandez/gRPC-example/blob/e23abf35526e1b518e1164d8cdaf66be5e247cfa/encryption.md)
 
 ## Protocol Buffers
 
